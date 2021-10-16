@@ -1,8 +1,8 @@
 html {
-    font-size: 14px;
-    font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
-    color: #222;
-    overflow-x: hidden;
+  font-size: 14px;
+  font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+  color: #222;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 767px) {
@@ -11,12 +11,12 @@ html {
 }}
 
 body {
-    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-    font-weight: 400;
-    box-sizing: border-box;
-    margin:     0;
-    max-width: 100%;
-    overflow-x: hidden;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin:     0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a{
@@ -400,7 +400,7 @@ body .section_top {
 h1{
   font-size: 40px;
   letter-spacing: 1px;
-  white-space: nowrap；
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 767px){
