@@ -1,0 +1,65 @@
+@font-face{
+	font-family: "DSEG";
+	src: url("./DSEG7-Classic/DSEG7Classic-Italic.ttf");
+}
+
+.outer{
+	display: flex;
+	align-items: center;
+	width: 400px;
+	height: 420px;
+	border: solid lightslategray;
+	border-width: 10px;
+	border-radius: 5px;
+}
+
+.center_width{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	margin: auto;
+}
+
+#time{
+	background-color: #BAD3D0;
+	border: groove;
+	border-radius: 10px;
+	text-align: center;
+	font-family: DSEG;
+	font-size: 2em;
+	line-height: 2.6em;
+	margin: 10px 15px;
+}
+
+.btn_part{
+	display: flex;
+	justify-content: space-between;
+	margin: 60px 15px 0;
+}
+
+.btn{
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border: solid;
+	border-radius: 50%;
+}
+
+.btn:hover{
+	opacity: 0.7;
+	transition: 0.4s;
+}
+
+#reset{
+	background-color: #fa8794;
+	font-size: small;
+}
+
+#stop{
+	background-color: #faec87;
+	margin-left: 20px;
+}
+
+#start{
+	background-color: #87cefa;
+}
