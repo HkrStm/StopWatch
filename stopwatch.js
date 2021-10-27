@@ -52,6 +52,3 @@ reset.addEventListener('click', function(){
     elapsed = 0;
     updateTime();
 });
-
-function clickBtn(){
-}
