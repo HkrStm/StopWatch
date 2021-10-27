@@ -45,6 +45,20 @@ stop.addEventListener('click', function(){
     clearInterval(intervalId);
     intervalId = null;
     
+    if(intervalId !== null){ return; }
+    let pre = new Date();
+    intervalId = setInterval(function() {
+        const now = new Date();
+        elapsed += now - pre;
+        pre = now;
+        updateTime();
+        console.log(elapsed);
+    }, 10);
+});
+
+stop.addEventListener('click', function(){
+    clearInterval(intervalId);
+    intervalId = null;
 });
 
 reset.addEventListener('click', function(){
